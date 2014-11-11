@@ -7,11 +7,11 @@ namespace :vim do
   VIMRC_SOURCE = ENV['HOME']+ "/.vim-for-rails/.vimrc"
   VIMRC_PATH = ENV['HOME'] + "/.vimrc"
   VIMRC_BACKUP_PATH = VIMRC_PATH + "_backup"
-	
+
   VIM_SOURCE = ENV['HOME'] + "/.vim-for-rails/.vim/"
   VIM_FOLDER_PATH = ENV['HOME'] + "/.vim"
   VIM_FOLDER_BACKUP_PATH = VIM_FOLDER_PATH + "_backup"
-  
+
   task :welcome do
     Log.msg :green,'
   ====================
@@ -31,7 +31,7 @@ namespace :vim do
     force = args[:overwrite] == "force"
     Log.info "Overwriten mode!" if force
     exist = false
-   
+
     # Symlink to vim folder
     if File.exists?(VIM_FOLDER_PATH) || File.symlink?(VIM_FOLDER_PATH)
       Log.warn "#{VIM_FOLDER_PATH} already exists"
@@ -44,7 +44,7 @@ namespace :vim do
       exist = true
     else
       Log.info "Make symlink #{VIM_FOLDER} to #{VIM_SOURCE} "
-      FileUtils.ln_s VIM_SOURCE, vim_folder
+      FileUtils.ln_s VIM_SOURCE, VIM_FOLDER_PATH 
     end
 
     # Symlink to vimrc
