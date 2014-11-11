@@ -92,7 +92,7 @@ In insertion mode you can use autocomplete function by pressing `tab`
 | `F11` or `Leader` + `r` + `v` | Choose from app/views. |
 | `F12` or `Leader` + `r` + `c` | Choose from app/controllers. |
 | **Fugitive**| |
-| `Leader` + `g` + `a` | Git add  |
+| `Leader` + `g` + `w` | Gwrite  |
 | `Leader` + `g` + `s` | Show git status|
 | `Leader` + `g` + `c` | Commit changes of current file|
 | `Leader` + `g` + `d` | See diff of current file.|
