@@ -43,7 +43,7 @@ namespace :vim do
       end
       exist = true
     else
-      Log.info "Make symlink #{VIM_FOLDER} to #{VIM_SOURCE} "
+      Log.info "Make symlink #{VIM_FOLDER_PATH} to #{VIM_SOURCE} "
       FileUtils.ln_s VIM_SOURCE, VIM_FOLDER_PATH 
     end
 
