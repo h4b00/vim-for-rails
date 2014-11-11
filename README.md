@@ -3,7 +3,7 @@
 ## Information
 
 This package of vim  in my opinion contains bunch of best plugins for rails environment development.
-* To speed up your coding we use [Snipmate Snippets](https://github.com/honza/snipmate-snippets/blob/master/snippets/ruby.snippets)
+* To speed up your coding we use [Snipmate Snippets](https://github.com/honza/vim-snippets)
 * To avoid bugs we use [rubocop](https://github.com/ngmy/vim-rubocop) with syntastic.
 * To protect the eyes we use [railscast](https://github.com/ryanb/dotfiles/blob/master/vim/colors/railscasts.vim) theme.
 * To protect nerves, installation is quick and simple.
