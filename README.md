@@ -37,7 +37,7 @@ Now you have to install gems run `bundle install`
 
 and at the end you have to run Rakefile.
 
-* `rake vim:install` if you it's your first installation of vim 
+* `rake vim:install` if it's your first installation of vim 
 * `rake vim:install[force]` if you want to overwrite your current config
 
 **In overwrite mode, script automatically makes backups config files before it overwrite them**
