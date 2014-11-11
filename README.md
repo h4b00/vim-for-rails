@@ -1,4 +1,4 @@
-# Ruby on Rails Bundle for Vim with Vundle
+# Vim for Ruby on Rails :) 
 
 ## Information
 
@@ -69,7 +69,6 @@ In insertion mode you can use autocomplete function by pressing `tab`
 | `ALT` + `Left`| Previous tab. |
 | `ALT` + `Right` | Next tab. |
 | `ALT` + *n* | Move to *n*-th tab, where n is from 0..9. |
-| `ALT` + *n* | choose *n*-th tab, where *n* is from 0..9. |
 | **Upper/Lower -case** | |
 | `Leader` + `u` | Uppercase all letters of current word. |
 | `Leader` + `l` | Lowercase all letters of current word. |
