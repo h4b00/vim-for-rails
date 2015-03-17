@@ -31,8 +31,6 @@
     Bundle 'tpope/vim-surround'
     Bundle 'scrooloose/nerdcommenter'
     Bundle 'Raimondi/delimitMate'
-    Bundle 'tpope/vim-haml'
-    Bundle 'vim-scripts/close-duplicate-tabs'
   "" }}}
 
   "" Languages
@@ -433,15 +431,11 @@
 
       " NERDTreeTabs {{{
       nnoremap <F1> :NERDTreeTabsToggle<CR>
-      autocmd BufEnter * if &modifiable | NERDTreeFind | wincmd p |endif
-      autocmd BufEnter * CloseDupTabs
       let g:NERDTreeMinimalUI=1
       let g:NERDTreeDirArrows=1
       let g:NERDTreeShowHidden=1
       let g:NERTreeHighlightCursorLine=1
       let g:nerdtree_tabs_open_on_console_startup=1
-      let g:nerdtree_tabs_autofind=1
-
       "}}}
       "
 
