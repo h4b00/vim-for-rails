@@ -19,10 +19,10 @@ namespace :vim do
   ====================
 
   Prepared by h4b0
-  www site: http://h4b0.com
+  www site: http://h4b0.pl
   github repo: https://github.com/h4b00/vim-for-rails/
-    '
-    Log.info "Starting installing Vim."
+'
+  Log.info "Starting installing Vim."
   end
 
   desc "Install vim"
