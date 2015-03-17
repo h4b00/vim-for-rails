@@ -1,6 +1,7 @@
 require 'rake'
 require 'rubygems'
 require './utils/log'
+require 'pry'
 namespace :vim do
 
   VIMRC_SOURCE = ENV['HOME']+ "/.vim-for-rails/.vimrc"
